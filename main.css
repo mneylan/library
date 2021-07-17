@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgb(11, 153, 219);
+}
+
+strong {
+  font-weight: bold;
+}
+
+.library-header {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.book-form {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.book {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-radio {
+  margin-left: 10px;
+}
+
+.library-container {
+  margin-top: 20px;
+  height: auto;
+  border: solid 1px black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-item {
+  border: solid 1px black;
+  min-height: 200px;
+  flex-basis: 10%;
+  position: relative;
+}
+
+.item {
+  padding: 10px 0 10px 10px;
+}
+
+.read {
+  
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+.item.read {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background:lightgreen;
+}
+
+.item.notread {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background:rgb(150, 149, 149);
+}
+
+.item.title {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: rgb(140, 240, 173);
+  width: 80px;
+  border-radius: 3px;
+}
+
+.remove {
+  width: 60px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  background-color: rgb(252, 106, 106)
+}
