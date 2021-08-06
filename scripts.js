@@ -4,12 +4,13 @@ let myLibrary = []
 let library = document.querySelector('.library-container')
 //Book Object
 
-function Book(title, author, pages, read) {
+class Book {
+  constructor(title, author, pages, read) {
   this.title = title
   this.author = author
   this.pages = pages
   this.read = read
-  
+  }
 }
 
 //Form to Book
