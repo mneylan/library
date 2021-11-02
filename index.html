@@ -15,15 +15,15 @@
     <form class="book-form">
       <label class="book title">
         Title:
-        <input class="form-inputs" type="text" name="title" id="tiel">
+        <input class="form-inputs" type="text" name="title" id="title" required>
       </label>
       <label class="book author">
         Author:
-        <input class="form-inputs" type="text" name="author" id="author">
+        <input class="form-inputs" type="text" name="author" id="author" required>
       </label>
       <label class="book pages">
         Pages:
-        <input class="form-inputs" type="text" name="pages" id="pages">
+        <input class="form-inputs" type="number" name="pages" id="pages" required min="2">
       </label>
       <div class="book read">
         <span>Read?:</span>
@@ -31,7 +31,7 @@
         <span class="form-radio">
           <label>
             Yes
-          <input type="radio" name="read" id="yes">
+          <input type="radio" name="read" id="yes" checked>
           </label>
         </span>
         <span class="form-radio">

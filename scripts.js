@@ -1,5 +1,5 @@
 //Library Array
-
+let nus = 23
 let myLibrary = []
 let library = document.querySelector('.library-container')
 //Book Object
@@ -79,7 +79,7 @@ form.addEventListener('submit', function(e) {
   form[0].value = ""
   form[1].value = ""
   form[2].value = ""
-  form[3].checked = false
+  form[3].checked = true
   form[4].checked = false
  
   
